@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>COSC2196 Intro to IT Assessment 1: My Profile</title>
-</head>
+---
+layout: minimal
+---
 <body>
 <h1>Project idea: Automating the Clinical Coding System</h1>
 <p>Public hospitals in Queensland and most other Australian states receive funding from Medicare and other government bodies on a per-patient-per-procedure basis (QLD Health 2018). For funding to be allocated correctly to each hospital, the procedures undertaken on a per-patient basis must be recorded and remitted to Medicare or the relevant funding body in a timely fashion. The current procedure for recording and remitting this information, called clinical coding, is extremely manual and time-consuming. This task involves an administrative worker reviewing patient charts and practitioner/nurse notes to determine what the medical condition was, which procedures were performed, and what materials were used in the process. Each condition and procedure is then assigned a code based on the Australian clinical coding standard ICD-10-AM (IHPA 2019); for example, P59.9 Jaundice in newborn. At times the condition can be up to interpretation, due to complexity or inability to decipher clinician handwriting.</p>
@@ -22,4 +20,4 @@
 <img src="ProjectIdeaFlow.png" alt=Project Idea Flow">
 <p>The practitioner will be required to submit the data, after which point data entry will close and the system will return to the initial ‘treating physician identification’ query. The app will organise this data per field, initially identifying the patient from hospital records and assigning patient details, practitioner name, and date/time to a temporary working file on the device. Key words and phrases from the diagnosis, procedure and additional materials fields will then be compared to a built-in table of ICD-10-AM codes. Where matching codes are found, these will be added to the working file. The file will be summarised with the patient status. Additional notes will be transcribed directly to the end of the file, alongside a direct copy of the practitioner notes for the diagnosis, procedure and materials fields, which will be included for verification and audit purposes, with any unresolved words or phrases highlighted for review by the clinical coding team.</p>
 <p>A possible example of the data generated is included below:</p>
-
+</body>
